@@ -5,7 +5,7 @@ body {
   background-size: cover;
 }
 
-div {
+#div {
   text-align: center;
   font-size: 20px;
   background-color: white;
@@ -17,7 +17,11 @@ div {
   max-height: 100vh;
   line-height: 1.5;
 }
-
+#weather {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
 #clock {
   font-size: 100px;
   color: black;
